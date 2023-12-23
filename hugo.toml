@@ -1,4 +1,4 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://tyfklsjfalkfn.github.io/'
 languageCode = 'en-us'
 title = '岁月静好：关于兰州养老的调查'
 theme = 'ananke'
@@ -9,3 +9,9 @@ defaultMarkdownHandler = "goldmark"
 [markup.goldmark.renderer]
 unsafe = true
 
+# 图片显示问题
+canonifyurls = true
+
+# 摘要长短设置
+hasCJKLanguage = true
+summaryLength = 30
